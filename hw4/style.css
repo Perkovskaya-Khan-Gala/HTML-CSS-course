@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Обычный */
+/*@font-face {
+    font-family: "GilroyMedium";
+    src: url("../fonts/GilroyMedium/GilroyMedium.eot");
+    src: url("../fonts/GilroyMedium/GilroyMedium.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroyMedium/GilroyMedium.woff") format("woff"),
+        url("../fonts/GilroyMedium/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Жирный */
+/*@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/GilroyBold/GilroyBold.eot");
+    src: url("../fonts/GilroyBold/GilroyBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroyBold/GilroyBold.woff") format("woff"),
+        url("../fonts/GilroyBold/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Полужирный */
+/*@font-face {
+    font-family: "GilroySemiBold";
+    src: url("../fonts/GilroySemiBold/GilroySemiBold.eot");
+    src: url("../fonts/GilroySemiBold/GilroySemiBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroySemiBold/GilroySemiBold.woff") format("woff"),
+        url("../fonts/GilroySemiBold/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}*/
+
+.center {
+    padding-left: calc(50% - 554px);
+    padding-right: calc(50% - 554px);
+}
+
+.top {
+    padding-bottom: 162px;
+    width: auto;
+}
+
+
+
+.header {
+    display: flex;
+    gap: 500px;
+
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 40px;
+
+}
+
+.grow {
+    margin-top: 45px;
+    margin-left: 14px;
+
+}
+
+.header_links {
+    margin-top: 51px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+
+
+.header_link {
+    color: #000;
+    font-family: GilroyMedium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.red_link {
+    color: #F25822;
+
+    font-family: GilroySemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_content {
+    margin-top: 94.7px;
+    display: flex;
+    gap: 41px;
+    justify-content: center;
+
+}
+
+.text_h1 {
+    width: 522px;
+    color: #000;
+
+    font-family: GilroyBold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_p {
+    margin-top: 17px;
+    width: 466px;
+
+    color: #888;
+
+    font-family: GilroyMedium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_buttons {
+    margin-top: 37px;
+    display: flex;
+    gap: 72px;
+
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    border: 0px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+
+    font-family: GilroyBold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_a {
+    margin-top: 15px;
+    margin-bottom: 16px;
+    color: #AAA;
+
+    font-family: GilroyBold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footter {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    background: #FFF;
+
+
+}
+
+.footter_logos {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+
+}
