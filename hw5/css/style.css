@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Обычный */
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../fonts/GilroyMedium/GilroyMedium.eot");
+    src: url("../fonts/GilroyMedium/GilroyMedium.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroyMedium/GilroyMedium.woff") format("woff"),
+        url("../fonts/GilroyMedium/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Жирный */
+@font-face {
+    font-family: "GilroyBold";
+    src: local('GilroyBold'), url("../fonts/GilroyBold/GilroyBold.ttf");
+
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Полужирный */
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url("../fonts/GilroySemiBold/GilroySemiBold.eot");
+    src: url("../fonts/GilroySemiBold/GilroySemiBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroySemiBold/GilroySemiBold.woff") format("woff"),
+        url("../fonts/GilroySemiBold/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+/*Regular*/
+@font-face {
+    font-family: "GilroyRegular";
+    src: url("../fonts/GilroyRegular/GilroyRegular.eot");
+    src: url("../fonts/GilroyRegular/GilroyRegular.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroyRegular/GilroyRegular.woff") format("woff"),
+        url("../fonts/GilroyRegular/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.content_small {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 381px);
+    justify-content: center;
+}
+
+.item_small {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    background: #FFF;
+
+
+}
+
+.item_small:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.h1_small_block {
+    margin-top: 25px;
+
+    color: #000;
+
+    font-family: GilroyBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p_block_small {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 310px;
+
+    color: #666;
+
+    font-family: GilroyRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.a_small_block {
+    color: #000;
+    font-family: GilroyBold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
+}
+
+
+
+.content_big {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: #FAFAFA;
+}
+
+.h1_big_content {
+    /*width: 579px;
+    margin-left: auto;
+    margin-right: auto;*/
+    text-align: center;
+
+    color: #000;
+    font-family: GilroyBold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p_text_big_content {
+    margin-top: 19px;
+    margin-bottom: 54px;
+    width: 682px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    color: #666;
+    text-align: center;
+    font-family: GilroyRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+
+}
+
+
+
+.item_big_block {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+    justify-content: center;
+
+    background: #FAFAFA;
+}
+
+.item_big {
+    background: #FFF;
+}
+
+.item_big:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.h2_big_block {
+    text-align: center;
+
+    color: #000;
+    font-family: GilroyBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p_block_big {
+    margin-top: 22px;
+    margin-left: 30px;
+    text-align: center;
+    width: 310px;
+
+    color: #AAA;
+
+    text-align: center;
+    font-family: GilroyRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.button_learnmore {
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    margin-bottom: 50px;
+}
+
+.button_big_block {
+    width: 150px;
+    height: 50px;
+    color: #FFF;
+    border-radius: 50px;
+    border: none;
+
+    text-align: center;
+    font-family: GilroyBold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 19.5px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+
+
+    background-color: #F25822;
+}
+
+.img_gap {
+    margin-top: 15px;
+}
