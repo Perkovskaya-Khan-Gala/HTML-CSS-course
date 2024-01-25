@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+
+
+.center2 {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.header {
+
+    padding-top: 18px;
+    padding-bottom: 19px;
+    background-color: #222;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.header_logo {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: baseline;
+}
+
+
+
+.top_content {
+    display: flex;
+    gap: 63px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.top_text {
+    display: flex;
+    justify-items: end;
+    gap: 16px;
+}
+
+.text_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_content {
+    padding-top: 65px;
+    padding-bottom: 96px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+}
+
+.img_item {
+    cursor: pointer;
+}
+
+.img_item_text {}
+
+.title_h3 {
+    color: #222;
+
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.text_p {
+    margin-top: 6px;
+    color: #9F9F9F;
+
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+.items_content {
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.product_desc {
+    padding: 24px 16px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.product_item {
+    cursor: pointer;
+}
+
+.text_h4 {
+    color: #000;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description_p {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.price_p {
+    color: #F16D7F;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_content {
+    padding-top: 48px;
+    padding-bottom: 60px;
+    display: grid;
+    justify-content: center;
+}
+
+.button_browseAll {
+    width: 212px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #FF6A6A;
+    border: 1.5px solid #FF6A6A;
+
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
